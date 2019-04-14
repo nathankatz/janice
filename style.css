@@ -83,7 +83,6 @@ p {
     .flex {
 
 
-        flex-wrap: nowrap;
 
     }
 
@@ -116,6 +115,7 @@ p {
 
 .flex {
     padding: 10px;
+   
 }
 
 #janice {
@@ -130,8 +130,7 @@ p {
 
 @media (max-width: 1000px) {
     .image {
-        width: 100%;
-        height: 100%;
+        width: 40%;
         display: block;
     }
 
