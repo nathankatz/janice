@@ -104,6 +104,10 @@ p {
     .right {
         display: block;
     }
+
+    #about {
+        font-size: 10px;
+    }
 }
 
 .flex1 {
@@ -124,9 +128,10 @@ p {
     margin-bottom: 20px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
     .image {
-
+        width: 100%;
+        height: 100%;
         display: block;
     }
 
@@ -472,3 +477,20 @@ button {}
         display: none;
     }
 }
+
+@media (max-width: 700px) {
+    .servies {
+        font-size: 18px;
+        font-style: normal;
+    }
+
+    .servies1 {
+        font-size: 11px;
+        font-style: normal;
+        line-height: 20px;
+        text-align: left;
+    }
+
+    #about {
+        font-size: 18px;
+    }
