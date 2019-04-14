@@ -30,7 +30,7 @@
     padding-top: 30px;
     position: relative;
     text-align: left;
- 
+
 }
 
 @media (max-width: 500px) {
@@ -40,6 +40,13 @@
         display: block;
         margin-left: 0px;
         margin-right: 0px;
+        bottom: -20px;
+    }
+
+    .box_1621 {
+        padding: 0px;
+        width: 100%;
+        display: block;
     }
 
     #contact {
@@ -499,10 +506,11 @@ button {}
     }
 
     .servies1 {
-        font-size: 11px;
+        font-size: 10px;
         font-style: normal;
         line-height: 20px;
         text-align: left;
+        text-indent: 0;
     }
 
     #about {
