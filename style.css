@@ -559,3 +559,9 @@ button {}
 .mb-0 {
     text-align: left;
 }
+
+@media (max-width: 700px){
+    .news {
+    width: 90px;
+}
+}
