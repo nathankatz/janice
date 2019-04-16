@@ -460,7 +460,7 @@ button {}
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:visited {
-    background-color: #f78f1e !important;
+    background-color: #f68000 !important;
     border: none;
 }
 
@@ -470,7 +470,7 @@ button {}
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:visited {
-    background-color: orange !important;
+    background-color: #f68000 !important;
     font-size: 25px;
     padding-right: 30px;
     padding-left: 30px;
@@ -516,7 +516,46 @@ button {}
     #about {
         font-size: 18px;
     }
+}
 
 
 
-    @media (max-width: 700px) {}
+
+
+#new {
+    max-width: 200px;
+}
+
+#images {
+    max-width: 800px;
+}
+
+.noindent {
+    text-indent: 0;
+}
+
+.card-header {
+    color: #f68000;
+
+}
+
+.btn-link {
+    color: orange;
+
+}
+
+.btn-link:hover {
+    color: orange;
+    text-decoration: underline;
+
+}
+
+.btn-link:active {
+    color: orange;
+    text-decoration: none;
+
+}
+
+.mb-0 {
+    text-align: left;
+}
